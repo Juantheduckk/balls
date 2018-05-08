@@ -13,7 +13,7 @@
       var p = this.particles[i];
       p.update();
       if(p.isDead()){
-        //this.particles.splice(i , 1);
+       this.particles.splice(i , 1);
       }
     }
   }
